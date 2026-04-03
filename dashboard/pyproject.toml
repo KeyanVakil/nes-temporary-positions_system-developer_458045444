@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.backends.build"
+
+[project]
+name = "drillsense-dashboard"
+version = "0.1.0"
+description = "DrillSense Monitoring Dashboard"
+requires-python = ">=3.12"
+dependencies = [
+    "streamlit>=1.40.0",
+    "httpx>=0.28.0",
+    "plotly>=5.24.0",
+    "pandas>=2.2.0",
+]

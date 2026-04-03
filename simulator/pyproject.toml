@@ -1,0 +1,12 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.backends.build"
+
+[project]
+name = "drillsense-simulator"
+version = "0.1.0"
+description = "DrillSense IoT Device Simulator"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28.0",
+]
